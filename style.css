@@ -65,4 +65,5 @@ button:hover {
 
 button:active {
   background-color: #2d417d;
+  transition: background-color 50ms ease-in;
 }
