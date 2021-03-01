@@ -33,4 +33,22 @@ h1 {
   font-size: 32px;
   line-height: 48px;
   text-transform: uppercase;
+  user-select: none;
+}
+
+main {
+  width: 100px;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: antiquewhite;
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0 auto;
+  user-select: none;
 }
