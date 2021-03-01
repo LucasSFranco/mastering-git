@@ -18,7 +18,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  background-color: royalblue;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 div {
@@ -29,8 +29,40 @@ div {
 }
 
 h1 {
+  width: 100%;
+  height: auto;
+
   color: #ffffff;
   font-size: 32px;
   line-height: 48px;
+  margin-bottom: 20px;
+  text-align: center;
   text-transform: uppercase;
+}
+
+section {
+  display: flex;
+}
+
+button {
+  width: 100%;
+  height: auto;
+
+  background-color: royalblue;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 44px;
+  margin: 0 16px;
+  text-align: center;
+  transition: background-color 150ms ease-in;
+}
+
+button:hover {
+  background-color: #3755af;
+}
+
+button:active {
+  background-color: #2d417d;
 }
